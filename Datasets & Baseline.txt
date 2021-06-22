@@ -1,0 +1,23 @@
+Datasets:
+	1) DBLP Aminer (https://github.com/rootlu/DyHNE)
+	2) DBLP Aminer (https://github.com/Yvonneupup/DHNE)
+	3) OAG (https://github.com/acbull/pyHGT)
+	4) Taobao
+几个数据集
+1. https://ogb.stanford.edu/docs/nodeprop/
+2. https://zuoyuan.github.io/publication/HTNE
+Data File:（\t分隔）
+	1) XXX.nodes	id	type	//p a v/c ...
+	2) XXX.edges	id	id	time // 多个时间多行
+	3) XXX.features	id	f1	f2	f3	...//归一化
+	4) XXX.labels	id	label
+	5) XXX.node_types	type	string
+	6) XXX.edge_types	type	type
+	7) XXX.label_names	label	name
+	8) XXX.readme	数据集描述：来源及链接，特征（维度、含义）、统计（节点总数、各类节点数、边总数、各类边数），标签数及含义
+
+Baselines:
+	1) DeepWalk LINE PTE Metapath2vec Metagraph2vec
+	2) (GraphSage) GAT HAN
+	3) DANE DHPE DHNE DyHNE
+
